@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -6,12 +6,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'About Me', url: '/folder/about-me', icon: 'mail' },
-    { title: 'Work Experience', url: '/folder/work-experience', icon: 'heart' },
-    { title: 'Eduction', url: '/folder/eduction', icon: 'archive' },
-    { title: 'RPA', url: '/folder/rpa', icon: 'paper-plane' },
-    { title: 'Engineering', url: '/folder/engineering', icon: 'trash' },
-    { title: 'Hobbies', url: '/folder/hobbies', icon: 'warning' },
+    { title: 'About Me', url: '/folder/about-me', icon: 'person' },
+    { title: 'Work Experience', url: '/folder/work-experience', icon: 'bar-chart' },
+    { title: 'Eduction', url: '/folder/eduction', icon: 'school' },
+    { title: 'Engineering', url: '/folder/engineering', icon: 'terminal' },
+    { title: 'Contact Me', url: '/folder/contact-me', icon: 'chatbox' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
